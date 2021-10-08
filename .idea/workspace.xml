@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d922ddc-b638-4228-941e-f60dc0ff3654" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/mybatis11/src/main/java/priv/mh/entity/Student.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis11/src/main/java/priv/mh/dao/IStudentDao.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis11/src/main/java/priv/mh/test/TestStudent1.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis11/src/main/java/priv/mh/dao/StudentDaoImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis11/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis11/src/main/resources/StudentMapper.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis11/src/main/resources/mybatis-config.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis11/src/main/resources/log4j.properties" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1yj4URIsKHaRsclvaTSywOEBDVq" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="shared-indexes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm" />
+      <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis12\src\main\java" />
+      <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis12\src\main\resources" />
+      <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis11\src\main\resources" />
+      <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\src\main\webapp\WEB-INF\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis11\src\main\resources" />
+      <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis11" />
+      <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis11\src\main\resources\priv.mh.dao" />
+      <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis11\src\main\java\priv" />
+      <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis11\src\main\java\priv\mh\dao" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="priv.mh" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="priv.mh.dao" />
+      <recent name="priv.mh.entity" />
+      <recent name="priv.mh.test" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestStudent1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="priv.mh.test.TestStudent1" />
+      <module name="mybatis12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="priv.mh.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.TestStudent1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="8d922ddc-b638-4228-941e-f60dc0ff3654" name="更改" comment="" />
+      <created>1632751679888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632751679888</updated>
+      <workItem from="1632751682729" duration="1973000" />
+      <workItem from="1632753727092" duration="23000" />
+      <workItem from="1632797207761" duration="2000" />
+      <workItem from="1633236579777" duration="19000" />
+      <workItem from="1633611777361" duration="14000" />
+      <workItem from="1633611812962" duration="29000" />
+      <workItem from="1633611848660" duration="2000" />
+      <workItem from="1633612768948" duration="8467000" />
+      <workItem from="1633621328799" duration="1240000" />
+      <workItem from="1633622603136" duration="3152000" />
+      <workItem from="1633650796581" duration="233000" />
+      <workItem from="1633651774362" duration="3627000" />
+      <workItem from="1633658938612" duration="3159000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.IOException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
