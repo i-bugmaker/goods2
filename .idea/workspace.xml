@@ -3,8 +3,31 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="mybatis21" />
+    </loaded-modules>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d922ddc-b638-4228-941e-f60dc0ff3654" name="更改" comment="" />
+    <list default="true" id="8d922ddc-b638-4228-941e-f60dc0ff3654" name="更改" comment="更改">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/goods.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ccf7d063-92b4-45a8-8b0d-f00e136557e8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ccf7d063-92b4-45a8-8b0d-f00e136557e8/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ccf7d063-92b4-45a8-8b0d-f00e136557e8/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ccf7d063-92b4-45a8-8b0d-f00e136557e8/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ccf7d063-92b4-45a8-8b0d-f00e136557e8/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ccf7d063-92b4-45a8-8b0d-f00e136557e8/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis12/src/main/resources/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis12/src/main/resources/StudentMapper.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +41,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -29,15 +55,19 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/mybatis11/src/main/java/priv/mh/entity/Student.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/mybatis11/src/main/java/priv/mh/dao/IStudentDao.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/mybatis11/src/main/java/priv/mh/test/TestStudent1.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/mybatis11/src/main/java/priv/mh/dao/StudentDaoImpl.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/mybatis11/pom.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/mybatis11/src/main/resources/StudentMapper.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis11/src/main/java/priv/mh/dao/StudentDaoImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis11/src/main/java/priv/mh/test/TestStudent1.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mybatis11/pom.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/mybatis11/src/main/resources/mybatis-config.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/mybatis11/src/main/resources/log4j.properties" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1yj4URIsKHaRsclvaTSywOEBDVq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
@@ -45,22 +75,24 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis22" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="shared-indexes" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis22" />
       <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm" />
       <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis12\src\main\java" />
       <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis12\src\main\resources" />
       <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis11\src\main\resources" />
-      <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\src\main\webapp\WEB-INF\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis11\src\main\resources" />
@@ -78,12 +110,25 @@
       <recent name="priv.mh.test" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="TestStudent1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="应用程序.TestGoods">
+    <configuration name="TestGoods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="priv.mh.test.TestGoods" />
+      <module name="goods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="priv.mh.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="priv.mh.test.TestStudent1" />
-      <module name="mybatis12" />
+      <option name="MAIN_CLASS_NAME" value="priv.mh.test.TestStudent" />
+      <module name="mybatis22" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="priv.mh.test.*" />
@@ -96,7 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.TestStudent1" />
+        <item itemvalue="应用程序.TestGoods" />
       </list>
     </recent_temporary>
   </component>
@@ -121,11 +166,36 @@
       <workItem from="1633650796581" duration="233000" />
       <workItem from="1633651774362" duration="3627000" />
       <workItem from="1633658938612" duration="3159000" />
+      <workItem from="1633671143381" duration="466000" />
+      <workItem from="1633685642574" duration="1078000" />
+      <workItem from="1633739984787" duration="14000" />
+      <workItem from="1633741008343" duration="3927000" />
+      <workItem from="1633745007129" duration="219000" />
+      <workItem from="1633790639637" duration="3000" />
+      <workItem from="1633916143319" duration="1639000" />
+      <workItem from="1633918750677" duration="141000" />
+      <workItem from="1634001179223" duration="1862000" />
+      <workItem from="1634034579628" duration="17000" />
+      <workItem from="1634694573207" duration="1041000" />
+      <workItem from="1634695670212" duration="4800000" />
+      <workItem from="1634702293407" duration="671000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
