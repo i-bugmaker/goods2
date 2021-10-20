@@ -30,4 +30,10 @@
         INSERT INTO student(studentname, gender, age)
         VALUES (#{sname}, #{sex}, #{age})
     </insert>
+
+    <delete id="deleteStudentById" parameterType="int">
+        delete
+        from student
+        where id = #{id}
+    </delete>
 </mapper>

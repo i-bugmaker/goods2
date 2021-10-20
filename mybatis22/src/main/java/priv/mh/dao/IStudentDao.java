@@ -12,4 +12,6 @@ public interface IStudentDao {
     public int insertStudent(Student student);
 
     public int insertStudentAutoIncrement(Student student);
+
+    public int deleteStudentById(int id);
 }

@@ -66,4 +66,22 @@ public class StudentDaoImpl2 implements IStudentDao {
         }
         return count;
     }
+
+    @Override
+    public int deleteStudentById(int sid) {
+        SqlSession session = null;
+        int count = 0;
+        try {
+            session = MyBatisUtil.getSession();
+            count = session.delete("priv.mh.dao.IStudentDao.deleteStudentById", sid);
+            session.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }finally {
+            if (session != null) {
+                session.close();
+            }
+        }
+        return count;
+    }
 }

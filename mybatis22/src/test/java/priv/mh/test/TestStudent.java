@@ -5,14 +5,17 @@ import priv.mh.dao.StudentDaoImpl2;
 import priv.mh.entity.Student;
 
 import java.util.List;
+import java.util.Scanner;
 
 public class TestStudent {
     public static void main(String[] args) {
         //findAllStudents();
         //findStudentById(1);
         //insertStudent();
-        insertStudentAutoIncrement();
+        //insertStudentAutoIncrement();
+        deleteStudentById();
     }
+
 
 
     private static void findAllStudents() {
@@ -57,5 +60,20 @@ public class TestStudent {
         }
     }
 
+    private static void deleteStudentById() {
+        IStudentDao studentDao = new StudentDaoImpl2();
+        Scanner input = new Scanner(System.in);
+        System.out.println("请输入你要删除的学生的学号");
+        int sid = input.nextInt();
+        Student student = studentDao.findStudentById(sid);
+        if (student != null) {
+            int count = studentDao.deleteStudentById(sid);
+            if (count > 0) {
+                System.out.println("删除成功!");
+            } else {
+                System.out.println("改学生不存在!");
+            }
+        }
+    }
 
 }
