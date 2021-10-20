@@ -38,6 +38,7 @@ public class StudentDaoImpl2 implements IStudentDao {
         try {
             session = MyBatisUtil.getSession();
             count = session.insert("priv.mh.dao.IStudentDao.insertStudent", student);
+            session.commit();
         } catch (Exception e) {
             e.printStackTrace();
         }finally {
