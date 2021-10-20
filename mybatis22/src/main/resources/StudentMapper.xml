@@ -36,4 +36,12 @@
         from student
         where id = #{id}
     </delete>
+
+    <update id="updateStudent" parameterType="priv.mh.entity.Student">
+        UPDATE student
+        SET studentname=#{sname},
+            gender=#{sex},
+            age=#{age}
+        WHERE id =#{sid}
+    </update>
 </mapper>

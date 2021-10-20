@@ -84,4 +84,22 @@ public class StudentDaoImpl2 implements IStudentDao {
         }
         return count;
     }
+
+    @Override
+    public int updateStudent(Student student) {
+        SqlSession session = null;
+        int count = 0;
+        try {
+            session = MyBatisUtil.getSession();
+            count = session.update("priv.mh.dao.IStudentDao.updateStudent", student);
+            session.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }finally {
+            if (session != null) {
+                session.close();
+            }
+        }
+        return count;
+    }
 }
