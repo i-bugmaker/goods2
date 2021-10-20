@@ -41,7 +41,25 @@ public class StudentDaoImpl2 implements IStudentDao {
             session.commit();
         } catch (Exception e) {
             e.printStackTrace();
-        }finally {
+        } finally {
+            if (session != null) {
+                session.close();
+            }
+        }
+        return count;
+    }
+
+    @Override
+    public int insertStudentAutoIncrement(Student student) {
+        SqlSession session = null;
+        int count = 0;
+        try {
+            session = MyBatisUtil.getSession();
+            count = session.insert("priv.mh.dao.IStudentDao.insertStudentAutoIncrement", student);
+            session.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
             if (session != null) {
                 session.close();
             }

@@ -10,4 +10,6 @@ public interface IStudentDao {
     public Student findStudentById(int id);
 
     public int insertStudent(Student student);
+
+    public int insertStudentAutoIncrement(Student student);
 }

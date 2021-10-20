@@ -10,7 +10,8 @@ public class TestStudent {
     public static void main(String[] args) {
         //findAllStudents();
         //findStudentById(1);
-        insertStudent();
+        //insertStudent();
+        insertStudentAutoIncrement();
     }
 
 
@@ -41,4 +42,20 @@ public class TestStudent {
             System.out.println("添加成功!");
         }
     }
+
+
+    private static void insertStudentAutoIncrement() {
+        IStudentDao studentDao = new StudentDaoImpl2();
+        Student student = new Student();
+        student.setSname("林冲");
+        student.setSex("男");
+        student.setAge(22);
+        int count = studentDao.insertStudentAutoIncrement(student);
+        if (count > 0) {
+            System.out.println("添加成功");
+            System.out.println("新添加的学生的编号是:" + student.getSid());
+        }
+    }
+
+
 }

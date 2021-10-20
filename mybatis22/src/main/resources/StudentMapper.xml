@@ -24,4 +24,10 @@
         INSERT INTO STUDENT(id, studentname, gender, age)
         VALUES (#{sid}, #{sname}, #{sex}, #{age})
     </insert>
+
+    <insert id="insertStudentAutoIncrement" parameterType="priv.mh.entity.Student" keyProperty="sid"
+            useGeneratedKeys="true">
+        INSERT INTO student(studentname, gender, age)
+        VALUES (#{sname}, #{sex}, #{age})
+    </insert>
 </mapper>

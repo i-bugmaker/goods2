@@ -9,7 +9,17 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d922ddc-b638-4228-941e-f60dc0ff3654" name="更改" comment="使用insertStudent添加记录" />
+    <list default="true" id="8d922ddc-b638-4228-941e-f60dc0ff3654" name="更改" comment="使用insertStudent添加记录(加入commit)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis22/src/main/java/priv/mh/dao/IStudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis22/src/main/java/priv/mh/dao/IStudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis22/src/main/java/priv/mh/dao/StudentDaoImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis22/src/main/java/priv/mh/dao/StudentDaoImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis22/src/main/resources/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis22/src/main/resources/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis22/src/test/java/priv/mh/test/TestStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis22/src/test/java/priv/mh/test/TestStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybatis22/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mybatis22/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybatis22/priv/mh/dao/IStudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mybatis22/priv/mh/dao/IStudentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybatis22/priv/mh/dao/StudentDaoImpl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mybatis22/priv/mh/dao/StudentDaoImpl2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/mybatis22/priv/mh/test/TestStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/mybatis22/priv/mh/test/TestStudent.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,7 +172,7 @@
       <workItem from="1634694573207" duration="1041000" />
       <workItem from="1634695670212" duration="4800000" />
       <workItem from="1634702293407" duration="671000" />
-      <workItem from="1634708599847" duration="1882000" />
+      <workItem from="1634708599847" duration="3026000" />
     </task>
     <task id="LOCAL-00001" summary="更改">
       <created>1634708637160</created>
@@ -185,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634710382088</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="使用insertStudent添加记录(加入commit)">
+      <created>1634710531740</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634710531740</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +223,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更改" />
     <MESSAGE value="使用insertStudent添加记录" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用insertStudent添加记录" />
+    <MESSAGE value="使用insertStudent添加记录(加入commit)" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用insertStudent添加记录(加入commit)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
