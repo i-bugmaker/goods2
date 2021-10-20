@@ -19,4 +19,9 @@
         FROM STUDENT
         where id = #{id}
     </select>
+
+    <insert id="insertStudent" parameterType="priv.mh.entity.Student">
+        INSERT INTO STUDENT(id, studentname, gender, age)
+        VALUES (#{sid}, #{sname}, #{sex}, #{age})
+    </insert>
 </mapper>

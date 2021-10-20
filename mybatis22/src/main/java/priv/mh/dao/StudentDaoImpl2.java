@@ -1,14 +1,9 @@
 package priv.mh.dao;
 
-import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import priv.mh.entity.Student;
 import priv.mh.utils.MyBatisUtil;
 
-import java.io.IOException;
-import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,5 +29,22 @@ public class StudentDaoImpl2 implements IStudentDao {
             e.printStackTrace();
         }
         return student;
+    }
+
+    @Override
+    public int insertStudent(Student student) {
+        SqlSession session = null;
+        int count = 0;
+        try {
+            session = MyBatisUtil.getSession();
+            count = session.insert("priv.mh.dao.IStudentDao.insertStudent", student);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }finally {
+            if (session != null) {
+                session.close();
+            }
+        }
+        return count;
     }
 }

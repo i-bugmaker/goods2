@@ -9,8 +9,10 @@ import java.util.List;
 public class TestStudent {
     public static void main(String[] args) {
         //findAllStudents();
-        findStudentById(1);
+        //findStudentById(1);
+        insertStudent();
     }
+
 
     private static void findAllStudents() {
         IStudentDao studentDao = new StudentDaoImpl2();
@@ -24,5 +26,19 @@ public class TestStudent {
         IStudentDao studentDao = new StudentDaoImpl2();
         Student student = studentDao.findStudentById(id);
         student.show();
+    }
+
+
+    private static void insertStudent() {
+        IStudentDao studentDao = new StudentDaoImpl2();
+        Student student = new Student();
+        student.setSid("6");
+        student.setSname("武松");
+        student.setSex("男");
+        student.setAge(23);
+        int count = studentDao.insertStudent(student);
+        if (count > 0) {
+            System.out.println("添加成功!");
+        }
     }
 }
