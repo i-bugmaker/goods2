@@ -10,11 +10,38 @@
         <id property="age" column="age"/>
     </resultMap>
     <select id="findAllStudents" resultMap="studentResultMap">
-        SELECT
-            id,
-            studentname,
-            gender ,
-            age
+        SELECT *
         FROM STUDENT
     </select>
+
+    <select id="findStudentById" parameterType="int" resultMap="studentResultMap">
+        SELECT *
+        FROM STUDENT
+        where id = #{id}
+    </select>
+
+    <insert id="insertStudent" parameterType="priv.mh.entity.Student">
+        INSERT INTO STUDENT(id, studentname, gender, age)
+        VALUES (#{sid}, #{sname}, #{sex}, #{age})
+    </insert>
+
+    <insert id="insertStudentAutoIncrement" parameterType="priv.mh.entity.Student" keyProperty="sid"
+            useGeneratedKeys="true">
+        INSERT INTO student(studentname, gender, age)
+        VALUES (#{sname}, #{sex}, #{age})
+    </insert>
+
+    <delete id="deleteStudentById" parameterType="int">
+        delete
+        from student
+        where id = #{id}
+    </delete>
+
+    <update id="updateStudent" parameterType="priv.mh.entity.Student">
+        UPDATE student
+        SET studentname=#{sname},
+            gender=#{sex},
+            age=#{age}
+        WHERE id =#{sid}
+    </update>
 </mapper>

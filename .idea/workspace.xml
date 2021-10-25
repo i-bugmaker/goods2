@@ -9,19 +9,26 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d922ddc-b638-4228-941e-f60dc0ff3654" name="更改" comment="使用delect方法删除记录">
+    <list default="true" id="8d922ddc-b638-4228-941e-f60dc0ff3654" name="更改" comment="使用update方法修改记录">
+      <change afterPath="$PROJECT_DIR$/mybatis23/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis23/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis23/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis23/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis23/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis23/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/bbf78e2c-d042-4ae7-9d32-7bbfd95a0c9c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bbf78e2c-d042-4ae7-9d32-7bbfd95a0c9c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis22/src/main/java/priv/mh/dao/IStudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis22/src/main/java/priv/mh/dao/IStudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis22/src/main/java/priv/mh/dao/StudentDaoImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis22/src/main/java/priv/mh/dao/StudentDaoImpl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis22/src/main/java/priv/mh/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis22/src/main/java/priv/mh/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis22/src/main/resources/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis22/src/main/resources/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis22/src/test/java/priv/mh/test/TestStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis22/src/test/java/priv/mh/test/TestStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mybatis22/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mybatis22/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mybatis22/priv/mh/dao/IStudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mybatis22/priv/mh/dao/IStudentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mybatis22/priv/mh/dao/StudentDaoImpl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mybatis22/priv/mh/dao/StudentDaoImpl2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mybatis22/priv/mh/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mybatis22/priv/mh/entity/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/mybatis22/priv/mh/test/TestStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/mybatis22/priv/mh/test/TestStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis22/target/classes/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis22/target/classes/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis22/target/classes/priv/mh/dao/IStudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis22/target/classes/priv/mh/dao/IStudentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis22/target/classes/priv/mh/dao/StudentDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis22/target/classes/priv/mh/dao/StudentDaoImpl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis22/target/classes/priv/mh/dao/StudentDaoImpl2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis22/target/test-classes/priv/mh/test/TestStudent1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybatis22/priv/mh/dao/IStudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybatis22/priv/mh/dao/StudentDaoImpl2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybatis22/priv/mh/entity/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mybatis22/priv/mh/utils/MyBatisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/mybatis22/priv/mh/test/TestStudent.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +80,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis22" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../openGLUT/ssm/1/mybatis-3.5.7/lib/slf4j-log4j12-1.7.30.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
@@ -83,11 +90,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis23" />
       <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis22" />
       <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm" />
       <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis12\src\main\java" />
       <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis12\src\main\resources" />
-      <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis11\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis11\src\main\resources" />
@@ -97,6 +104,7 @@
       <recent name="C:\Users\HuangMenghui\Documents\develop\IdeaProject\ssm\mybatis11\src\main\java\priv\mh\dao" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="priv.mh" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -123,13 +131,26 @@
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="priv.mh.test.TestStudent" />
-      <module name="mybatis22" />
+      <module name="mybatis23" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="priv.mh.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="main" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,7 +196,12 @@
       <workItem from="1634694573207" duration="1041000" />
       <workItem from="1634695670212" duration="4800000" />
       <workItem from="1634702293407" duration="671000" />
-      <workItem from="1634708599847" duration="6315000" />
+      <workItem from="1634708599847" duration="6655000" />
+      <workItem from="1634715615010" duration="142000" />
+      <workItem from="1634715770607" duration="247000" />
+      <workItem from="1634719431859" duration="1277000" />
+      <workItem from="1635062603050" duration="24000" />
+      <workItem from="1635062652140" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="更改">
       <created>1634708637160</created>
@@ -219,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634713541671</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="使用update方法修改记录">
+      <created>1634715292738</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634715292738</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +276,8 @@
     <MESSAGE value="使用insertStudent添加记录(加入commit)" />
     <MESSAGE value="使用insertStudentAutoIncrement添加记录" />
     <MESSAGE value="使用delect方法删除记录" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用delect方法删除记录" />
+    <MESSAGE value="使用update方法修改记录" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用update方法修改记录" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
